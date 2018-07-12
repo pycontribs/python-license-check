@@ -1,0 +1,6 @@
+-   id: liccheck
+    name: Validates dependency licenses for Python packages
+    description: This validator validates a pre-commit hooks manifest file
+    entry: liccheck -s setup.cfg -r requirements.txt
+    language: python_venv
+    language_version: python3
